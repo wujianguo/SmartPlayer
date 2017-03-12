@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81C51ABA1E7297FE00D1FCBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C51AB91E7297FE00D1FCBA /* AppDelegate.swift */; };
+		81C51ABF1E7297FF00D1FCBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C51ABD1E7297FF00D1FCBA /* Main.storyboard */; };
+		81C51AC11E7297FF00D1FCBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C51AC01E7297FF00D1FCBA /* Assets.xcassets */; };
+		81C51AC41E7297FF00D1FCBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C51AC21E7297FF00D1FCBA /* LaunchScreen.storyboard */; };
+		81C51ACF1E7297FF00D1FCBA /* SmartPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C51ACE1E7297FF00D1FCBA /* SmartPlayerTests.swift */; };
+		81C51ADA1E7297FF00D1FCBA /* SmartPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C51AD91E7297FF00D1FCBA /* SmartPlayerUITests.swift */; };
+		81F6227A1E7588A40062637E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F622791E7588A40062637E /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81C51ACB1E7297FF00D1FCBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C51AAE1E7297FE00D1FCBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C51AB51E7297FE00D1FCBA;
+			remoteInfo = SmartPlayer;
+		};
+		81C51AD61E7297FF00D1FCBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C51AAE1E7297FE00D1FCBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C51AB51E7297FE00D1FCBA;
+			remoteInfo = SmartPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81C51AB61E7297FE00D1FCBA /* SmartPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C51AB91E7297FE00D1FCBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81C51ABE1E7297FF00D1FCBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81C51AC01E7297FF00D1FCBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81C51AC31E7297FF00D1FCBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81C51AC51E7297FF00D1FCBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C51ACA1E7297FF00D1FCBA /* SmartPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C51ACE1E7297FF00D1FCBA /* SmartPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPlayerTests.swift; sourceTree = "<group>"; };
+		81C51AD01E7297FF00D1FCBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C51AD51E7297FF00D1FCBA /* SmartPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C51AD91E7297FF00D1FCBA /* SmartPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPlayerUITests.swift; sourceTree = "<group>"; };
+		81C51ADB1E7297FF00D1FCBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81F622791E7588A40062637E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		81F6227D1E75894D0062637E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		81F6227E1E75894D0062637E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81C51AB31E7297FE00D1FCBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C51AC71E7297FF00D1FCBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C51AD21E7297FF00D1FCBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81C51AAD1E7297FE00D1FCBA = {
+			isa = PBXGroup;
+			children = (
+				81C51AB81E7297FE00D1FCBA /* SmartPlayer */,
+				81C51ACD1E7297FF00D1FCBA /* SmartPlayerTests */,
+				81C51AD81E7297FF00D1FCBA /* SmartPlayerUITests */,
+				81C51AB71E7297FE00D1FCBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81C51AB71E7297FE00D1FCBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81C51AB61E7297FE00D1FCBA /* SmartPlayer.app */,
+				81C51ACA1E7297FF00D1FCBA /* SmartPlayerTests.xctest */,
+				81C51AD51E7297FF00D1FCBA /* SmartPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81C51AB81E7297FE00D1FCBA /* SmartPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				81F6227C1E75893B0062637E /* Metadata */,
+				81F6227B1E7588D00062637E /* Resources */,
+				81F622781E75889A0062637E /* Classes */,
+			);
+			path = SmartPlayer;
+			sourceTree = "<group>";
+		};
+		81C51ACD1E7297FF00D1FCBA /* SmartPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				81C51ACE1E7297FF00D1FCBA /* SmartPlayerTests.swift */,
+				81C51AD01E7297FF00D1FCBA /* Info.plist */,
+			);
+			path = SmartPlayerTests;
+			sourceTree = "<group>";
+		};
+		81C51AD81E7297FF00D1FCBA /* SmartPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81C51AD91E7297FF00D1FCBA /* SmartPlayerUITests.swift */,
+				81C51ADB1E7297FF00D1FCBA /* Info.plist */,
+			);
+			path = SmartPlayerUITests;
+			sourceTree = "<group>";
+		};
+		81F622781E75889A0062637E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				81F622791E7588A40062637E /* MainViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		81F6227B1E7588D00062637E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				81C51AB91E7297FE00D1FCBA /* AppDelegate.swift */,
+				81C51ABD1E7297FF00D1FCBA /* Main.storyboard */,
+				81C51AC21E7297FF00D1FCBA /* LaunchScreen.storyboard */,
+				81C51AC01E7297FF00D1FCBA /* Assets.xcassets */,
+				81C51AC51E7297FF00D1FCBA /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		81F6227C1E75893B0062637E /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				81F6227D1E75894D0062637E /* LICENSE */,
+				81F6227E1E75894D0062637E /* README.md */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81C51AB51E7297FE00D1FCBA /* SmartPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C51ADE1E7297FF00D1FCBA /* Build configuration list for PBXNativeTarget "SmartPlayer" */;
+			buildPhases = (
+				81C51AB21E7297FE00D1FCBA /* Sources */,
+				81C51AB31E7297FE00D1FCBA /* Frameworks */,
+				81C51AB41E7297FE00D1FCBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartPlayer;
+			productName = SmartPlayer;
+			productReference = 81C51AB61E7297FE00D1FCBA /* SmartPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81C51AC91E7297FF00D1FCBA /* SmartPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C51AE11E7297FF00D1FCBA /* Build configuration list for PBXNativeTarget "SmartPlayerTests" */;
+			buildPhases = (
+				81C51AC61E7297FF00D1FCBA /* Sources */,
+				81C51AC71E7297FF00D1FCBA /* Frameworks */,
+				81C51AC81E7297FF00D1FCBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C51ACC1E7297FF00D1FCBA /* PBXTargetDependency */,
+			);
+			name = SmartPlayerTests;
+			productName = SmartPlayerTests;
+			productReference = 81C51ACA1E7297FF00D1FCBA /* SmartPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81C51AD41E7297FF00D1FCBA /* SmartPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C51AE41E7297FF00D1FCBA /* Build configuration list for PBXNativeTarget "SmartPlayerUITests" */;
+			buildPhases = (
+				81C51AD11E7297FF00D1FCBA /* Sources */,
+				81C51AD21E7297FF00D1FCBA /* Frameworks */,
+				81C51AD31E7297FF00D1FCBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C51AD71E7297FF00D1FCBA /* PBXTargetDependency */,
+			);
+			name = SmartPlayerUITests;
+			productName = SmartPlayerUITests;
+			productReference = 81C51AD51E7297FF00D1FCBA /* SmartPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81C51AAE1E7297FE00D1FCBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jianguo Wu";
+				TargetAttributes = {
+					81C51AB51E7297FE00D1FCBA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					81C51AC91E7297FF00D1FCBA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81C51AB51E7297FE00D1FCBA;
+					};
+					81C51AD41E7297FF00D1FCBA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81C51AB51E7297FE00D1FCBA;
+					};
+				};
+			};
+			buildConfigurationList = 81C51AB11E7297FE00D1FCBA /* Build configuration list for PBXProject "SmartPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81C51AAD1E7297FE00D1FCBA;
+			productRefGroup = 81C51AB71E7297FE00D1FCBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81C51AB51E7297FE00D1FCBA /* SmartPlayer */,
+				81C51AC91E7297FF00D1FCBA /* SmartPlayerTests */,
+				81C51AD41E7297FF00D1FCBA /* SmartPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81C51AB41E7297FE00D1FCBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C51AC41E7297FF00D1FCBA /* LaunchScreen.storyboard in Resources */,
+				81C51AC11E7297FF00D1FCBA /* Assets.xcassets in Resources */,
+				81C51ABF1E7297FF00D1FCBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C51AC81E7297FF00D1FCBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C51AD31E7297FF00D1FCBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81C51AB21E7297FE00D1FCBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F6227A1E7588A40062637E /* MainViewController.swift in Sources */,
+				81C51ABA1E7297FE00D1FCBA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C51AC61E7297FF00D1FCBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C51ACF1E7297FF00D1FCBA /* SmartPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C51AD11E7297FF00D1FCBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C51ADA1E7297FF00D1FCBA /* SmartPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81C51ACC1E7297FF00D1FCBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C51AB51E7297FE00D1FCBA /* SmartPlayer */;
+			targetProxy = 81C51ACB1E7297FF00D1FCBA /* PBXContainerItemProxy */;
+		};
+		81C51AD71E7297FF00D1FCBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C51AB51E7297FE00D1FCBA /* SmartPlayer */;
+			targetProxy = 81C51AD61E7297FF00D1FCBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81C51ABD1E7297FF00D1FCBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81C51ABE1E7297FF00D1FCBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81C51AC21E7297FF00D1FCBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81C51AC31E7297FF00D1FCBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81C51ADC1E7297FF00D1FCBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81C51ADD1E7297FF00D1FCBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81C51ADF1E7297FF00D1FCBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.SmartPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		81C51AE01E7297FF00D1FCBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.SmartPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		81C51AE21E7297FF00D1FCBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.SmartPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartPlayer.app/SmartPlayer";
+			};
+			name = Debug;
+		};
+		81C51AE31E7297FF00D1FCBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.SmartPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartPlayer.app/SmartPlayer";
+			};
+			name = Release;
+		};
+		81C51AE51E7297FF00D1FCBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SmartPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.SmartPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SmartPlayer;
+			};
+			name = Debug;
+		};
+		81C51AE61E7297FF00D1FCBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SmartPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.SmartPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SmartPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81C51AB11E7297FE00D1FCBA /* Build configuration list for PBXProject "SmartPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C51ADC1E7297FF00D1FCBA /* Debug */,
+				81C51ADD1E7297FF00D1FCBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C51ADE1E7297FF00D1FCBA /* Build configuration list for PBXNativeTarget "SmartPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C51ADF1E7297FF00D1FCBA /* Debug */,
+				81C51AE01E7297FF00D1FCBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C51AE11E7297FF00D1FCBA /* Build configuration list for PBXNativeTarget "SmartPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C51AE21E7297FF00D1FCBA /* Debug */,
+				81C51AE31E7297FF00D1FCBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C51AE41E7297FF00D1FCBA /* Build configuration list for PBXNativeTarget "SmartPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C51AE51E7297FF00D1FCBA /* Debug */,
+				81C51AE61E7297FF00D1FCBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81C51AAE1E7297FE00D1FCBA /* Project object */;
+}
